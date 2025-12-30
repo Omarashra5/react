@@ -8,7 +8,7 @@ export default function Product({data}) {
     <>
         {
             data.map((pro)=>(
-                <div className="col-3">
+                <div className="col-md-3 col-lg-6 col-sm-3">
                     <div className="card p-3 mt-3">
                         <img src={pro.image} height={200} alt="" />
                         <h2>{pro.title.substring(0,10)}</h2>
