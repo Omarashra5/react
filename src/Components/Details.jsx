@@ -21,7 +21,7 @@ export default function Details() {
             <h1 className='text-center mt-3'>Details Product</h1>
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-3 col-lg-8">
                         <div className="card p-3 mt-3">
                             <img src={product.image} alt="" />
                             <h2>{product.title}</h2>
