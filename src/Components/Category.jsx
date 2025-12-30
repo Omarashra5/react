@@ -20,7 +20,7 @@ export default function Category() {
                     {
                         category.map((c) => {
                             return (
-                                <div className="col-3">
+                                <div className="col-sm-3 col-md-6 col-lg-8">
                                     <div className="card p-3">
                                         <img src={c.image} height={'300px'} alt="" />
                                         <h2>{c.title.substring(0,10)}</h2>
